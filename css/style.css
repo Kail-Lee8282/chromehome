@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+    margin:0;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body, div, h1{
+    margin:0;
+    color: white;
+    font-family: 'Nanum Pen Script';
+    font-size: 24px;
+}
+
+h1{
+    font-size: 46px;
+}
+.hidden {
+    display: none;
+}
+
+body>img {
+    background-size: cover;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+}
+
+
+#weather {
+    position:absolute;
+    top:0;
+    right: 0;
+    font-size: 24px;
+    text-align: center;
+    margin: 10px;
+}
+
+
+footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
+#quote{
+    margin-bottom: 15px;
+}
+
+#quote span {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+}
+
+#quote>span:first-child {
+    font-size: 20px;
+}
+
+
+
+.inputNameContainer{
+    font-size: 40px;    
+}
+
+
+#centerContainer{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#clock, #date{
+    font-size: 84px;
+    margin: 0;
+}
+
+#input-user-name{
+    all:unset;
+    width: 100%;
+    border: .5px solid white;
+    border-radius: 15px;
+    padding:0px 15px;
+    
+}
+
+#greeting{
+    color:white;
+    font-size: 46px;
+}
+
+#todo-form{
+    font-size: 24px;
+    margin: 10px;
+}
+
+#input-search{
+    all: unset;
+    width: 100%;
+    border-radius: 20px;
+    padding: 5px 10px;
+    background-color: white;
+    color:black;
+}
+
+
+.todoList{
+    margin: 0;
+}
+
+.todoDelete {
+    all:unset;
+    margin-left: 10px;
+}
+
+.todoValue {
+    font-size: 30px;
+}
+
+input[type="text"], input[type="button"]{
+    all:unset;
+}
+
+#input-todo{
+    background-color: white;
+    border-radius: 15px;
+    color:black;
+    padding:0px 15px;
+}
+
+
+#btn-logout{
+    
+    
+    margin-left: 15px;
+    
+}

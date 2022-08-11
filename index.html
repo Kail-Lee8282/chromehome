@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Home</title>
+</head>
+
+<body>
+
+    <div id="centerContainer">
+        <div class="inputNameContainer">
+            <form class="hidden" id="login-form">
+                <h1>What your name?</h1>
+                <input id="input-user-name" type="text" required maxlength="35"
+                    placeholder="Write your name and then enter." />
+                <!-- <input type="submit" value="Log in"> -->
+            </form>
+            <div class="greetingContainer hidden">
+                <span id="greeting"></span>
+                <input id="btn-logout" type="button" value="logout"/>
+            </div>
+            
+            
+        </div>
+        <p id="date">2022-08-09</p>
+        <span id="clock">00:00:00</span>
+        <div>
+            <input id="input-search" type="text" placeholder="Google search" />
+        </div>
+    </div>
+
+    <form id="todo-form">
+        <span>Memo</span>
+        <input id="input-todo" type="text" placeholder="Write a To Do and Press Enter" />
+    </form>
+    <ul id="todo-list">
+    </ul>
+
+    <div id="weather">
+        <span></span>
+        <div><span></span></div>
+    </div>
+
+    <footer>
+        <div id="quote">
+            <span></span>
+            <div>
+                <span></span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/greeting.js"></script>
+    <script src="./js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/search.js"></script>
+</body>
+
+</html>
